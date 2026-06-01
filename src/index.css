@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-grid {
+    background-color: #ffffff;
+
+    background-image:
+      linear-gradient(hsl(237, 100%, 56%) 0.5px, transparent 1px),
+      linear-gradient(90deg, hsla(237, 100%, 56%, 0.292) 0.5px, transparent 1px);
+
+    background-size: 40px 40px;
+
+    animation: moveGrid 20s linear infinite;
+  }
+
+  .bg-polka {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(hsl(237, 100%, 56%) 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    animation: movePolka 20s linear infinite;
+  }
+
+  @keyframes moveGrid {
+    from {
+      background-position: 0 0;
+    }
+
+    to {
+      background-position: 40px 40px;
+    }
+  }
+
+  @keyframes movePolka {
+    from {
+      background-position: 0 0;
+    }
+
+    to {
+      background-position: 40px 40px;
+    }
+  }
+}
+
+.clip-polygon {
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
