@@ -7,9 +7,10 @@ import Skills from "./Skills.tsx";
 function App() {
     return(
       <>
-        <div id="home" className="min-h-screen">
-          <div className="flex flex-col lg:flex-row-reverse items-center justify-between p-4 lg:p-8 gap-8 sm:ms-32">
-            <div
+        <div id="home" className="">
+          <div className="flex flex-col lg:flex-row-reverse items-center justify-center p-4 lg:p-8 gap-8 sm:ms-32 min-h-screen">
+            {/**
+             <div
               className="
                 aspect-square
                 border
@@ -21,7 +22,8 @@ function App() {
                 shrink-0
               "
             />
-            <div className="flex-1 text-center lg:text-left">
+             */}
+            <div className="text-center lg:text-left flex flex-col items-center justify-center">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                 Hi, Christian A. Bola
               </h1>
