@@ -43,10 +43,6 @@ function App() {
         <div  id="projects" className="w-full min-h-48 h-fit p-8 bg-white pt-16">
           <Projects />
         </div>
-
-        <div  id="about" className="w-full min-h-48 h-fit p-8 bg-white pt-16">
-          <About />
-        </div>
       </>
     )
 }

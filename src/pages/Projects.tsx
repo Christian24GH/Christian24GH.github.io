@@ -58,14 +58,14 @@ function ImageCarousel({
 
       <button
         onClick={prevImage}
-        className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-2 rounded-full"
+        className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-2 aspect-square"
       >
         <FaAngleDoubleLeft size={32}/>
       </button>
 
       <button
         onClick={nextImage}
-        className="absolute right-3 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-2 rounded-full"
+        className="absolute right-3 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-2 aspect-square"
       >
         <FaAngleDoubleRight size={32}/>
       </button>
