@@ -5,7 +5,7 @@ import { AiFillCode } from "react-icons/ai";
 import { FaPerson } from "react-icons/fa6";
 import type { IconType } from "react-icons";
 
-function NavIcon({title, address, icon: Icon}: {title?: string, address?: string, icon?: IconType}){
+function NavIcon({title, address, icon: Icon}: {title?: string, address?: string, icon: IconType}){
     const [isHovered, setIsHovered] = useState(false);
     
     return(
