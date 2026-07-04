@@ -14,7 +14,7 @@ function NavIcon({title, address, icon: Icon}: {title?: string, address?: string
             onMouseLeave={() => setIsHovered(false)}
             onClick={() => {
                 window.location.href = address;
-                history.replaceState(null, null, window.location.href.split('#')[0]);
+                history.replaceState(null, "", window.location.href.split('#')[0]);
             }}>
             <div className="absolute inset-0 bg-black"></div>
             <div 
